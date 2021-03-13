@@ -1,0 +1,99 @@
+// UTILTIY CLASSES
+.container {
+  max-width: 110rem;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: $font-second;
+}
+
+.bg-light {
+  background: $font-first;
+  color: $font-third;
+}
+
+.bg-dark {
+  background: $font-fourth;
+  color: $font-first;
+}
+
+.bg-primary {
+  background: $font-first;
+  color: $font-third;
+}
+
+.l-heading {
+  font-size: 6rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.btn {
+  display: inline-block;
+  color: $font-third;
+  background: $font-second;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    background: $font-first;
+  }
+
+  &-dark {
+    background: $font-fourth;
+    color: $font-first;
+  }
+}
+
+.list {
+  margin: 0.5rem 0;
+  list-style: none;
+
+  li {
+    padding: 0.5rem 0;
+    border-bottom: $font-third dotted 1px;
+  }
+}

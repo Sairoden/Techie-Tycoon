@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1100px) {
+  #what {
+    .items {
+      .item {
+        // ALIGN ICON TO LEFT
+        display: flex;
+        text-align: left;
+
+        // POSITION ICON
+        i {
+          margin-right: 1.3rem;
+          align-self: center;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  #contact {
+    .map {
+      flex: 2;
+    }
+  }
+}
