@@ -1,0 +1,25 @@
+// SHOWCASE
+#showcase {
+  background: $font-third url("../img/showcase.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: $font-first;
+
+  .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+
+    // OVERLAY
+    position: absolute;
+    top: 5.3rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($font-fourth, 0.4);
+  }
+}
